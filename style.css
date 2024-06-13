@@ -1,1 +1,54 @@
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#house-container {
+    width: 500px;
+    height: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+}
+
+#roof {
+    width: 100%;
+    height: 30%;
+    background-color: #996633; /* Roof color */
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%); /* Triangle shape */
+}
+
+#walls {
+    width: 100%;
+    height: 70%;
+    background-color: #fff; /* Wall color */
+    border: 1px solid #ccc;
+}
+
+#door {
+    width: 30%;
+    height: 40%;
+    background-color: #800000; /* Door color */
+    margin: 10px;
+    float: left;
+}
+
+#window1, #window2 {
+    width: 20%;
+    height: 20%;
+    background-color: lightblue; /* Window color */
+    margin: 10px;
+    float: left;
+}
+
+#light-switch {
+    margin: 10px;
+    float: right;
+}
+
+#light-button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
